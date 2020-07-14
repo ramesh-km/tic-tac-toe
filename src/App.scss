@@ -1,0 +1,26 @@
+html, body {
+    background-color: green;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 7rem);
+    grid-template-rows: repeat(3, 7rem);
+
+    .square {
+        font-size: 5rem;
+    }
+}
+
+.game {
+    display: flex;
+    margin: 2rem;
+
+    .game-info {
+        margin: 1rem;
+
+        .status {
+            font-size: 2rem;
+        }
+    }
+}
